@@ -1,0 +1,541 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4983A08A-4182-403C-AF0F-008CAAA1F44E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SmartPayroll</RootNamespace>
+    <AssemblyName>SmartPayroll</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AForge.Video, Version=2.2.5.0, Culture=neutral, PublicKeyToken=cbfb6e07d173c401, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\External Libraries\AForge.Video.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Video.DirectShow, Version=2.2.5.0, Culture=neutral, PublicKeyToken=61ea4348d43881b7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\External Libraries\AForge.Video.DirectShow.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.5.0.0\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Guna.UI">
+      <HintPath>C:\Users\Sherlock\Documents\Visual Studio 2012\Guna Framework\_Getintopc.com_Guna_UI_Framework_Ultimate_v2.0.0.1\Guna_UI_Framework_Ultimate_v2.0.0.1\Guna.UI-Framework-Lib-master\Guna.UI WinForms\.net 4.0\Guna.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MetroFramework.Design, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Design.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MetroFramework.Fonts, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Fonts.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="QRCoder, Version=1.4.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\QRCoder.1.4.1\lib\net40\QRCoder.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Data.SqlServerCe, Version=4.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="Zen.Barcode.Core">
+      <HintPath>..\External Libraries\Zen.Barcode.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="zxing, Version=0.10.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60, processorArchitecture=MSIL">
+      <HintPath>..\packages\ZXing.Net.0.10.0.0\lib\net40\zxing.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="zxing.presentation, Version=0.10.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60, processorArchitecture=MSIL">
+      <HintPath>..\packages\ZXing.Net.0.10.0.0\lib\net40\zxing.presentation.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BillingProcessDetailsManagement.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BillingProcessDetailsManagement.Designer.cs">
+      <DependentUpon>BillingProcessDetailsManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BillPrinter.cs" />
+    <Compile Include="DashboardFom.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DashboardFom.Designer.cs">
+      <DependentUpon>DashboardFom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeeDetailsManagement.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EmployeeDetailsManagement.Designer.cs">
+      <DependentUpon>EmployeeDetailsManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManageAllVeiws.cs" />
+    <Compile Include="ManageBillingProcess.cs" />
+    <Compile Include="ProductDetailsManagement.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ProductDetailsManagement.Designer.cs">
+      <DependentUpon>ProductDetailsManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductionDetailsRegister.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegisterEmployeeDetails.cs" />
+    <Compile Include="SettingsManagement.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SettingsManagement.Designer.cs">
+      <DependentUpon>SettingsManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SettingsMgmt.cs" />
+    <Compile Include="SupplierDetailsManagement.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SupplierDetailsManagement.Designer.cs">
+      <DependentUpon>SupplierDetailsManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SupplierDetailsRegistration.cs" />
+    <Compile Include="VeiwAllProporties.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="VeiwAllProporties.Designer.cs">
+      <DependentUpon>VeiwAllProporties.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="BillingProcessDetailsManagement.resx">
+      <DependentUpon>BillingProcessDetailsManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DashboardFom.resx">
+      <DependentUpon>DashboardFom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmployeeDetailsManagement.resx">
+      <DependentUpon>EmployeeDetailsManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductDetailsManagement.resx">
+      <DependentUpon>ProductDetailsManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="SettingsManagement.resx">
+      <DependentUpon>SettingsManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SupplierDetailsManagement.resx">
+      <DependentUpon>SupplierDetailsManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VeiwAllProporties.resx">
+      <DependentUpon>VeiwAllProporties.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-dashboard-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-dashboard-100 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-dashboard-100 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-group-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-team-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-bill-60.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-shopping-bag-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-settings-256.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-bread-and-rye-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\outline_email_black_24dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-email-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\depositphotos_39258143-stock-illustration-businessman-avatar-profile-picture.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-facebook-circled-480.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-secured-letter.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-whatsapp-96 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-settings-480.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-get-help-240.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-pay-date-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-envato-500 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-get-revenue-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-envato-500 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-profit-growth-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-waving-hand-emoji-96 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-money-80 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-counter-80.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-capital-80.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-euro-money-80.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-categorize-80.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-registration-80.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-average-80.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-today-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blank-profile-picture-973460_1280.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-edit-240.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-name-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-worker-id-card-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-birth-date-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-email-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-address-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-gender-fluid-60.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-telephone-96 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-phone-80.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-permanent-job-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-office-chair-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-join-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-join-961.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-registration-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-previous-location-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-galaxy-80.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-new-job-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-number-6-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-job-seeker-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-china-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-africa-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-postal-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-education-90.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-university-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-bank-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-bank-building-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-bank-building-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-bank-building-100 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-account-80.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-account-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-real-number-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-details-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-name-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-name-tag-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-couple-lock-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\barcode-5c81647c46e0fb00011365f0.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-barcode-reader-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-cloud-refresh-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-cloud-refresh-100 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-password-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-id-verified-90.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-company-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-address-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-cathedral-80.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-timezone-+5-80.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-insurance-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-refresh-shield-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-dialing-number-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-elective-80.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-create-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-service-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-service-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-comments-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-company-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-conference-skin-type-7-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-date-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-name-badge-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-pay-date-961.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-how-many-quest-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-price-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-total-sales-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-barcode-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-id-button-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-worker-id-card-961.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-company-961.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-name-tag-961.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-comments-96 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-details-961.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-more-details-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-stumbleupon-240.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-pdf-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-view-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-replay-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-warehouse-90.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-sort-by-price-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\DataSources\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,63 @@
+J:\MyProjects\C # Systems\SmartPayroll\SmartPayroll\bin\Debug\SmartPayroll.exe.config
+J:\MyProjects\C # Systems\SmartPayroll\SmartPayroll\obj\Debug\SmartPayroll.exe
+J:\MyProjects\C # Systems\SmartPayroll\SmartPayroll\obj\Debug\SmartPayroll.pdb
+J:\MyProjects\C # Systems\SmartPayroll\SmartPayroll\bin\Debug\SmartPayroll.exe
+J:\MyProjects\C # Systems\SmartPayroll\SmartPayroll\bin\Debug\SmartPayroll.pdb
+J:\MyProjects\C # Systems\SmartPayroll\SmartPayroll\bin\Debug\Guna.UI.dll
+J:\MyProjects\C # Systems\SmartPayroll\SmartPayroll\bin\Debug\MetroFramework.Design.dll
+J:\MyProjects\C # Systems\SmartPayroll\SmartPayroll\bin\Debug\MetroFramework.dll
+J:\MyProjects\C # Systems\SmartPayroll\SmartPayroll\bin\Debug\MetroFramework.Fonts.dll
+J:\MyProjects\C # Systems\SmartPayroll\SmartPayroll\obj\Debug\SmartPayroll.csprojResolveAssemblyReference.cache
+J:\MyProjects\C # Systems\SmartPayroll\SmartPayroll\obj\Debug\SmartPayroll.BillingProcessDetailsManagement.resources
+J:\MyProjects\C # Systems\SmartPayroll\SmartPayroll\obj\Debug\SmartPayroll.DashboardFom.resources
+J:\MyProjects\C # Systems\SmartPayroll\SmartPayroll\obj\Debug\SmartPayroll.EmployeeDetailsManagement.resources
+J:\MyProjects\C # Systems\SmartPayroll\SmartPayroll\obj\Debug\SmartPayroll.Form1.resources
+J:\MyProjects\C # Systems\SmartPayroll\SmartPayroll\obj\Debug\SmartPayroll.ProductDetailsManagement.resources
+J:\MyProjects\C # Systems\SmartPayroll\SmartPayroll\obj\Debug\SmartPayroll.Properties.Resources.resources
+J:\MyProjects\C # Systems\SmartPayroll\SmartPayroll\obj\Debug\SmartPayroll.SupplierDetailsManagement.resources
+J:\MyProjects\C # Systems\SmartPayroll\SmartPayroll\obj\Debug\SmartPayroll.VeiwAllProporties.resources
+J:\MyProjects\C # Systems\SmartPayroll\SmartPayroll\obj\Debug\SmartPayroll.csproj.GenerateResource.Cache
+J:\MyProjects\C # Systems\SmartPayroll\SmartPayroll\obj\Debug\SmartPayroll.SettingsManagement.resources
+J:\MyProjects\C # Systems\SmartPayroll - Intel Core 4x AMD Proc. 2021\SmartPayroll\bin\Debug\SmartPayroll.exe.config
+J:\MyProjects\C # Systems\SmartPayroll - Intel Core 4x AMD Proc. 2021\SmartPayroll\obj\Debug\SmartPayroll.exe
+J:\MyProjects\C # Systems\SmartPayroll - Intel Core 4x AMD Proc. 2021\SmartPayroll\obj\Debug\SmartPayroll.pdb
+J:\MyProjects\C # Systems\SmartPayroll - Intel Core 4x AMD Proc. 2021\SmartPayroll\bin\Debug\SmartPayroll.exe
+J:\MyProjects\C # Systems\SmartPayroll - Intel Core 4x AMD Proc. 2021\SmartPayroll\bin\Debug\SmartPayroll.pdb
+J:\MyProjects\C # Systems\SmartPayroll - Intel Core 4x AMD Proc. 2021\SmartPayroll\bin\Debug\Guna.UI.dll
+J:\MyProjects\C # Systems\SmartPayroll - Intel Core 4x AMD Proc. 2021\SmartPayroll\bin\Debug\MetroFramework.Design.dll
+J:\MyProjects\C # Systems\SmartPayroll - Intel Core 4x AMD Proc. 2021\SmartPayroll\bin\Debug\MetroFramework.dll
+J:\MyProjects\C # Systems\SmartPayroll - Intel Core 4x AMD Proc. 2021\SmartPayroll\bin\Debug\MetroFramework.Fonts.dll
+J:\MyProjects\C # Systems\SmartPayroll - Intel Core 4x AMD Proc. 2021\SmartPayroll\obj\Debug\SmartPayroll.BillingProcessDetailsManagement.resources
+J:\MyProjects\C # Systems\SmartPayroll - Intel Core 4x AMD Proc. 2021\SmartPayroll\obj\Debug\SmartPayroll.DashboardFom.resources
+J:\MyProjects\C # Systems\SmartPayroll - Intel Core 4x AMD Proc. 2021\SmartPayroll\obj\Debug\SmartPayroll.EmployeeDetailsManagement.resources
+J:\MyProjects\C # Systems\SmartPayroll - Intel Core 4x AMD Proc. 2021\SmartPayroll\obj\Debug\SmartPayroll.Form1.resources
+J:\MyProjects\C # Systems\SmartPayroll - Intel Core 4x AMD Proc. 2021\SmartPayroll\obj\Debug\SmartPayroll.ProductDetailsManagement.resources
+J:\MyProjects\C # Systems\SmartPayroll - Intel Core 4x AMD Proc. 2021\SmartPayroll\obj\Debug\SmartPayroll.Properties.Resources.resources
+J:\MyProjects\C # Systems\SmartPayroll - Intel Core 4x AMD Proc. 2021\SmartPayroll\obj\Debug\SmartPayroll.SettingsManagement.resources
+J:\MyProjects\C # Systems\SmartPayroll - Intel Core 4x AMD Proc. 2021\SmartPayroll\obj\Debug\SmartPayroll.SupplierDetailsManagement.resources
+J:\MyProjects\C # Systems\SmartPayroll - Intel Core 4x AMD Proc. 2021\SmartPayroll\obj\Debug\SmartPayroll.VeiwAllProporties.resources
+J:\MyProjects\C # Systems\SmartPayroll - Intel Core 4x AMD Proc. 2021\SmartPayroll\obj\Debug\SmartPayroll.csproj.GenerateResource.Cache
+J:\MyProjects\C # Systems\SmartPayroll - Intel Core 4x AMD Proc. 2021\SmartPayroll\obj\Debug\SmartPayroll.csprojResolveAssemblyReference.cache
+J:\MyProjects\CSPRG -  Projects\CSPRG - SmartPayroll - Intel Core 4x AMD Proc. 2021\SmartPayroll\bin\Debug\SmartPayroll.exe.config
+J:\MyProjects\CSPRG -  Projects\CSPRG - SmartPayroll - Intel Core 4x AMD Proc. 2021\SmartPayroll\obj\Debug\SmartPayroll.exe
+J:\MyProjects\CSPRG -  Projects\CSPRG - SmartPayroll - Intel Core 4x AMD Proc. 2021\SmartPayroll\obj\Debug\SmartPayroll.pdb
+J:\MyProjects\CSPRG -  Projects\CSPRG - SmartPayroll - Intel Core 4x AMD Proc. 2021\SmartPayroll\bin\Debug\SmartPayroll.exe
+J:\MyProjects\CSPRG -  Projects\CSPRG - SmartPayroll - Intel Core 4x AMD Proc. 2021\SmartPayroll\bin\Debug\SmartPayroll.pdb
+J:\MyProjects\CSPRG -  Projects\CSPRG - SmartPayroll - Intel Core 4x AMD Proc. 2021\SmartPayroll\bin\Debug\Guna.UI.dll
+J:\MyProjects\CSPRG -  Projects\CSPRG - SmartPayroll - Intel Core 4x AMD Proc. 2021\SmartPayroll\bin\Debug\MetroFramework.Design.dll
+J:\MyProjects\CSPRG -  Projects\CSPRG - SmartPayroll - Intel Core 4x AMD Proc. 2021\SmartPayroll\bin\Debug\MetroFramework.dll
+J:\MyProjects\CSPRG -  Projects\CSPRG - SmartPayroll - Intel Core 4x AMD Proc. 2021\SmartPayroll\bin\Debug\MetroFramework.Fonts.dll
+J:\MyProjects\CSPRG -  Projects\CSPRG - SmartPayroll - Intel Core 4x AMD Proc. 2021\SmartPayroll\obj\Debug\SmartPayroll.csprojResolveAssemblyReference.cache
+J:\MyProjects\CSPRG -  Projects\CSPRG - SmartPayroll - Intel Core 4x AMD Proc. 2021\SmartPayroll\obj\Debug\SmartPayroll.BillingProcessDetailsManagement.resources
+J:\MyProjects\CSPRG -  Projects\CSPRG - SmartPayroll - Intel Core 4x AMD Proc. 2021\SmartPayroll\obj\Debug\SmartPayroll.DashboardFom.resources
+J:\MyProjects\CSPRG -  Projects\CSPRG - SmartPayroll - Intel Core 4x AMD Proc. 2021\SmartPayroll\obj\Debug\SmartPayroll.EmployeeDetailsManagement.resources
+J:\MyProjects\CSPRG -  Projects\CSPRG - SmartPayroll - Intel Core 4x AMD Proc. 2021\SmartPayroll\obj\Debug\SmartPayroll.Form1.resources
+J:\MyProjects\CSPRG -  Projects\CSPRG - SmartPayroll - Intel Core 4x AMD Proc. 2021\SmartPayroll\obj\Debug\SmartPayroll.ProductDetailsManagement.resources
+J:\MyProjects\CSPRG -  Projects\CSPRG - SmartPayroll - Intel Core 4x AMD Proc. 2021\SmartPayroll\obj\Debug\SmartPayroll.Properties.Resources.resources
+J:\MyProjects\CSPRG -  Projects\CSPRG - SmartPayroll - Intel Core 4x AMD Proc. 2021\SmartPayroll\obj\Debug\SmartPayroll.SettingsManagement.resources
+J:\MyProjects\CSPRG -  Projects\CSPRG - SmartPayroll - Intel Core 4x AMD Proc. 2021\SmartPayroll\obj\Debug\SmartPayroll.SupplierDetailsManagement.resources
+J:\MyProjects\CSPRG -  Projects\CSPRG - SmartPayroll - Intel Core 4x AMD Proc. 2021\SmartPayroll\obj\Debug\SmartPayroll.VeiwAllProporties.resources
+J:\MyProjects\CSPRG -  Projects\CSPRG - SmartPayroll - Intel Core 4x AMD Proc. 2021\SmartPayroll\obj\Debug\SmartPayroll.csproj.GenerateResource.Cache
+J:\MyProjects\CSPRG -  Projects\CSPRG - Smart P.O.S  -Ponit Of Sale System Intel Core 4x AMD Proc. 2021\SmartPayroll\bin\Debug\SmartPayroll.exe.config
+J:\MyProjects\CSPRG -  Projects\CSPRG - Smart P.O.S  -Ponit Of Sale System Intel Core 4x AMD Proc. 2021\SmartPayroll\obj\Debug\SmartPayroll.exe
+J:\MyProjects\CSPRG -  Projects\CSPRG - Smart P.O.S  -Ponit Of Sale System Intel Core 4x AMD Proc. 2021\SmartPayroll\obj\Debug\SmartPayroll.pdb

@@ -1,0 +1,33 @@
+J:\MyProjects\CSPRG -  Projects\CSPRG - Smart P.O.S  -Ponit Of Sale System Intel Core 4x AMD Proc. 2021\SmartPayroll\bin\Debug\SmartPayroll.exe.config
+J:\MyProjects\CSPRG -  Projects\CSPRG - Smart P.O.S  -Ponit Of Sale System Intel Core 4x AMD Proc. 2021\SmartPayroll\obj\Debug\SmartPayroll.exe
+J:\MyProjects\CSPRG -  Projects\CSPRG - Smart P.O.S  -Ponit Of Sale System Intel Core 4x AMD Proc. 2021\SmartPayroll\obj\Debug\SmartPayroll.pdb
+J:\MyProjects\CSPRG -  Projects\CSPRG - Smart P.O.S  -Ponit Of Sale System Intel Core 4x AMD Proc. 2021\SmartPayroll\bin\Debug\SmartPayroll.exe
+J:\MyProjects\CSPRG -  Projects\CSPRG - Smart P.O.S  -Ponit Of Sale System Intel Core 4x AMD Proc. 2021\SmartPayroll\bin\Debug\SmartPayroll.pdb
+J:\MyProjects\CSPRG -  Projects\CSPRG - Smart P.O.S  -Ponit Of Sale System Intel Core 4x AMD Proc. 2021\SmartPayroll\bin\Debug\Guna.UI.dll
+J:\MyProjects\CSPRG -  Projects\CSPRG - Smart P.O.S  -Ponit Of Sale System Intel Core 4x AMD Proc. 2021\SmartPayroll\bin\Debug\MetroFramework.Design.dll
+J:\MyProjects\CSPRG -  Projects\CSPRG - Smart P.O.S  -Ponit Of Sale System Intel Core 4x AMD Proc. 2021\SmartPayroll\bin\Debug\MetroFramework.dll
+J:\MyProjects\CSPRG -  Projects\CSPRG - Smart P.O.S  -Ponit Of Sale System Intel Core 4x AMD Proc. 2021\SmartPayroll\bin\Debug\MetroFramework.Fonts.dll
+J:\MyProjects\CSPRG -  Projects\CSPRG - Smart P.O.S  -Ponit Of Sale System Intel Core 4x AMD Proc. 2021\SmartPayroll\obj\Debug\SmartPayroll.BillingProcessDetailsManagement.resources
+J:\MyProjects\CSPRG -  Projects\CSPRG - Smart P.O.S  -Ponit Of Sale System Intel Core 4x AMD Proc. 2021\SmartPayroll\obj\Debug\SmartPayroll.DashboardFom.resources
+J:\MyProjects\CSPRG -  Projects\CSPRG - Smart P.O.S  -Ponit Of Sale System Intel Core 4x AMD Proc. 2021\SmartPayroll\obj\Debug\SmartPayroll.EmployeeDetailsManagement.resources
+J:\MyProjects\CSPRG -  Projects\CSPRG - Smart P.O.S  -Ponit Of Sale System Intel Core 4x AMD Proc. 2021\SmartPayroll\obj\Debug\SmartPayroll.Form1.resources
+J:\MyProjects\CSPRG -  Projects\CSPRG - Smart P.O.S  -Ponit Of Sale System Intel Core 4x AMD Proc. 2021\SmartPayroll\obj\Debug\SmartPayroll.ProductDetailsManagement.resources
+J:\MyProjects\CSPRG -  Projects\CSPRG - Smart P.O.S  -Ponit Of Sale System Intel Core 4x AMD Proc. 2021\SmartPayroll\obj\Debug\SmartPayroll.Properties.Resources.resources
+J:\MyProjects\CSPRG -  Projects\CSPRG - Smart P.O.S  -Ponit Of Sale System Intel Core 4x AMD Proc. 2021\SmartPayroll\obj\Debug\SmartPayroll.SettingsManagement.resources
+J:\MyProjects\CSPRG -  Projects\CSPRG - Smart P.O.S  -Ponit Of Sale System Intel Core 4x AMD Proc. 2021\SmartPayroll\obj\Debug\SmartPayroll.SupplierDetailsManagement.resources
+J:\MyProjects\CSPRG -  Projects\CSPRG - Smart P.O.S  -Ponit Of Sale System Intel Core 4x AMD Proc. 2021\SmartPayroll\obj\Debug\SmartPayroll.VeiwAllProporties.resources
+J:\MyProjects\CSPRG -  Projects\CSPRG - Smart P.O.S  -Ponit Of Sale System Intel Core 4x AMD Proc. 2021\SmartPayroll\obj\Debug\Smart P.O.S System.csproj.GenerateResource.Cache
+J:\MyProjects\CSPRG -  Projects\CSPRG - Smart P.O.S  -Ponit Of Sale System Intel Core 4x AMD Proc. 2021\SmartPayroll\bin\Debug\Zen.Barcode.Core.dll
+J:\MyProjects\CSPRG -  Projects\CSPRG - Smart P.O.S  -Ponit Of Sale System Intel Core 4x AMD Proc. 2021\SmartPayroll\bin\Debug\AForge.Video.DirectShow.dll
+J:\MyProjects\CSPRG -  Projects\CSPRG - Smart P.O.S  -Ponit Of Sale System Intel Core 4x AMD Proc. 2021\SmartPayroll\bin\Debug\AForge.Video.dll
+J:\MyProjects\CSPRG -  Projects\CSPRG - Smart P.O.S  -Ponit Of Sale System Intel Core 4x AMD Proc. 2021\SmartPayroll\bin\Debug\AForge.dll
+J:\MyProjects\CSPRG -  Projects\CSPRG - Smart P.O.S  -Ponit Of Sale System Intel Core 4x AMD Proc. 2021\SmartPayroll\bin\Debug\zxing.dll
+J:\MyProjects\CSPRG -  Projects\CSPRG - Smart P.O.S  -Ponit Of Sale System Intel Core 4x AMD Proc. 2021\SmartPayroll\bin\Debug\zxing.presentation.dll
+J:\MyProjects\CSPRG -  Projects\CSPRG - Smart P.O.S  -Ponit Of Sale System Intel Core 4x AMD Proc. 2021\SmartPayroll\bin\Debug\zxing.pdb
+J:\MyProjects\CSPRG -  Projects\CSPRG - Smart P.O.S  -Ponit Of Sale System Intel Core 4x AMD Proc. 2021\SmartPayroll\bin\Debug\zxing.xml
+J:\MyProjects\CSPRG -  Projects\CSPRG - Smart P.O.S  -Ponit Of Sale System Intel Core 4x AMD Proc. 2021\SmartPayroll\bin\Debug\zxing.presentation.pdb
+J:\MyProjects\CSPRG -  Projects\CSPRG - Smart P.O.S  -Ponit Of Sale System Intel Core 4x AMD Proc. 2021\SmartPayroll\bin\Debug\zxing.presentation.xml
+J:\MyProjects\CSPRG -  Projects\CSPRG - Smart P.O.S  -Ponit Of Sale System Intel Core 4x AMD Proc. 2021\SmartPayroll\obj\Debug\Smart P.O.S System.csprojResolveAssemblyReference.cache
+J:\MyProjects\CSPRG -  Projects\CSPRG - Smart P.O.S  -Ponit Of Sale System Intel Core 4x AMD Proc. 2021\SmartPayroll\bin\Debug\QRCoder.dll
+J:\MyProjects\CSPRG -  Projects\CSPRG - Smart P.O.S  -Ponit Of Sale System Intel Core 4x AMD Proc. 2021\SmartPayroll\bin\Debug\EntityFramework.dll
+J:\MyProjects\CSPRG -  Projects\CSPRG - Smart P.O.S  -Ponit Of Sale System Intel Core 4x AMD Proc. 2021\SmartPayroll\bin\Debug\EntityFramework.xml
